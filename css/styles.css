@@ -578,7 +578,7 @@ address {
   background-color: rgba(33, 150, 243, 0.9);
   width: 100%;
   height: 100%;
-  transform: translateY(101%);
+  /* transform: translateY(101%); */
   transition: transform var(--duration) var(--timing-function-cubic);
   padding: 63px 24px;
   overflow: auto;
@@ -593,17 +593,6 @@ address {
 .portfolio-item-link:hover .portfolio-overlay-text {
   transform: translateY(0);
 }
-
-/* .portfolio-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-color: rgba(33, 150, 243, 0.9);
-  transform: translatex(-100%);
-  transition: box-shadow var(--duration) var(--timing-function-cubic);
-} */
 
 /* -------------- FOOTER ------------*/
 
